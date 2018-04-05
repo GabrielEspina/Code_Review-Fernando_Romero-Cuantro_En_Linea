@@ -14,7 +14,7 @@
  * ----------------------------------------------------------
  * |Autor:  	Espina Gabriel				    |
  * |Matricula:	56003160 // Testing y Prueba de Software    |
- * |Alias: 		CREG (Code Review Espina Gabriel)   |
+ * |Alias: 	CREG (Code Review Espina Gabriel)   	    |
  * ----------------------------------------------------------
  */
 
