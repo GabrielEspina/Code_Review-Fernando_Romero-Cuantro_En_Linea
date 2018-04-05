@@ -10,23 +10,23 @@
 
 /*
  * ----------------------------------------------------------
- * |Code Review | Clase 3 - Tarea Adicional					|
+ * |Code Review | Clase 3 - Tarea Adicional		    |
  * ----------------------------------------------------------
- * |Autor:  	Espina Gabriel								|
- * |Matricula:	56003160 // Testing y Prueba de Software	|
- * |Alias: 		CREG (Code Review Espina Gabriel)			|
+ * |Autor:  	Espina Gabriel				    |
+ * |Matricula:	56003160 // Testing y Prueba de Software    |
+ * |Alias: 		CREG (Code Review Espina Gabriel)   |
  * ----------------------------------------------------------
  */
 
 
 /*
  * ------------------------------------------------------
-* |CREG:	main(String[] args)							|
+* |CREG:	main(String[] args)			|
 * -------------------------------------------------------
 * |> El juego esta programado a raiz de una sola clase	|
-* |														|
-* |> Provoca la creacion de una varidad extensa			|
-* |  de metodos, que realizan diferentes acciones		|										|
+* |							|
+* |> Provoca la creacion de una varidad extensa		|
+* |  de metodos, que realizan diferentes acciones	|									
 * -------------------------------------------------------
 */
 
@@ -41,16 +41,16 @@ public class Main {
 		
 		/*
 		 * ------------------------------------------------------
-		 * |CREG:	main(String[])								|
+		 * |CREG:	main(String[])				|
 		 * ------------------------------------------------------
-		 * |> El main contiene demasiado codigo.				|
-		 * |													|
+		 * |> El main contiene demasiado codigo.		|
+		 * |							|
 		 * |> Los sysout() podrian ser parte  de un metodo, que	|
-		 * |  interactuen directamente por consola, con el		|
-		 * |  usuario.											|
-		 * |													|
-		 * |> La forma de nombrar metodos y atributos es		|
-		 * |  incorrecto										|
+		 * |  interactuen directamente por consola, con el	|
+		 * |  usuario.						|
+		 * |							|
+		 * |> La forma de nombrar metodos y atributos es	|
+		 * |  incorrecto					|
 		 * ------------------------------------------------------
 		 */
 		
@@ -101,15 +101,15 @@ public class Main {
 			
 			/*
 			 * ------------------------------------------------------
-			* |CREG:	main(String[])::while(!SalidaPrincipal)		|
+			* |CREG:	main(String[])::while(!SalidaPrincipal)	|
 			* -------------------------------------------------------
-			* |> La condicion if siguiente es innecesaria			|
-			* |														|
-			* |> "VolverAJugar()" deberia estar dentro del 			|
-			* |  condicional while()								|	
-			* |														|
+			* |> La condicion if siguiente es innecesaria		|
+			* |							|
+			* |> "VolverAJugar()" deberia estar dentro del 		|
+			* |  condicional while()				|	
+			* |							|
 			* |> Por lo tanto el atributo booleano SalidaPrincipal 	|
-			* |  es inncesesario									|
+			* |  es inncesesario					|
 			* -------------------------------------------------------
 			*/
 			
@@ -129,11 +129,11 @@ public class Main {
 		
 		/*
 		 * ------------------------------------------------------
-		* |CREG:	hayganador (String, int, int)				|
+		* |CREG:	hayganador (String, int, int)		|
 		* -------------------------------------------------------
-		* |> Los atributos estan mal nombrados 					|
-		* |														|
-		* |> Falta comentar el metodo							|
+		* |> Los atributos estan mal nombrados 			|
+		* |							|
+		* |> Falta comentar el metodo				|
 		* -------------------------------------------------------
 		*/
 		
@@ -175,21 +175,21 @@ public class Main {
 		
 		/*
 		 * ------------------------------------------------------
-		* |CREG:	GanadorDificil (String[][], String)			|
+		* |CREG:	GanadorDificil (String[][], String)	|
 		* -------------------------------------------------------
-		* |> Los atributos estan mal nombrados. 				|
-		* |														|
-		* |> El metodo esta mal nombrado.						|
-		* |														|
+		* |> Los atributos estan mal nombrados. 		|
+		* |							|
+		* |> El metodo esta mal nombrado.			|
+		* |							|
 		* |> Las tres estructuras FOR podrian reducirse a un for|
-		* |  introducido en un metodo en la misma clase.		|
-		* |														|
+		* |  introducido en un metodo en la misma clase.	|
+		* |							|
 		* |> La estructura FOR utilizada es erronea, deberia ser|
-		* |  un WHILE().										|
-		* |														|
+		* |  un WHILE().					|
+		* |							|
 		* |> La validacion del if dentro del FOR podria ser 	|
 		* |  parte de un metodo, para acortar el codigo y que 	|
-		* |  sea mas legible.									|
+		* |  sea mas legible.					|
 		* -------------------------------------------------------
 		*/
 		
@@ -243,21 +243,21 @@ public class Main {
 		
 		/*
 		 * ------------------------------------------------------
-		* |CREG:	GanadorMedio (String[][], String)			|
+		* |CREG:	GanadorMedio (String[][], String)	|
 		* -------------------------------------------------------
-		* |> Los atributos estan mal nombrados. 				|
-		* |														|
-		* |> El metodo esta mal nombrado.						|
-		* |														|
+		* |> Los atributos estan mal nombrados. 		|
+		* |							|
+		* |> El metodo esta mal nombrado.			|
+		* |							|
 		* |> Las tres estructuras FOR podrian reducirse a un for|
-		* |  introducido en un metodo en la misma clase.		|
-		* |														|
+		* |  introducido en un metodo en la misma clase.	|
+		* |							|
 		* |> La estructura FOR utilizada es erronea, deberia ser|
-		* |  un WHILE().										|
-		* |														|
+		* |  un WHILE().					|
+		* |							|
 		* |> La validacion del if dentro del FOR podria ser 	|
 		* |  parte de un metodo, para acortar el codigo y que 	|
-		* |  sea mas legible.									|
+		* |  sea mas legible.					|
 		* -------------------------------------------------------
 		*/
 		
@@ -312,21 +312,21 @@ public class Main {
 		
 		/*
 		 * ------------------------------------------------------
-		* |CREG:	GanadorFacil (String[][], String)			|
+		* |CREG:	GanadorFacil (String[][], String)	|
 		* -------------------------------------------------------
-		* |> Los atributos estan mal nombrados. 				|
-		* |														|
-		* |> El metodo esta mal nombrado.						|
-		* |														|
+		* |> Los atributos estan mal nombrados. 		|
+		* |							|
+		* |> El metodo esta mal nombrado.			|
+		* |							|
 		* |> Las tres estructuras FOR podrian reducirse a un for|
-		* |  introducido en un metodo en la misma clase.		|
-		* |														|
+		* |  introducido en un metodo en la misma clase.	|
+		* |							|
 		* |> La estructura FOR utilizada es erronea, deberia ser|
-		* |  un WHILE().										|
-		* |														|
+		* |  un WHILE().					|
+		* |							|
 		* |> La validacion del if dentro del FOR podria ser 	|
 		* |  parte de un metodo, para acortar el codigo y que 	|
-		* |  sea mas legible.									|
+		* |  sea mas legible.					|
 		* -------------------------------------------------------
 		*/
 		
@@ -381,11 +381,11 @@ public class Main {
 		
 		/*
 		 * ------------------------------------------------------
-		* |CREG:	ingresarficha (String[][], int)				|
+		* |CREG:	ingresarficha (String[][], int)		|
 		* -------------------------------------------------------
-		* |> Los atributos estan mal nombrados. 				|
-		* |														|
-		* |> El metodo esta mal nombrado.						|
+		* |> Los atributos estan mal nombrados. 		|
+		* |							|
+		* |> El metodo esta mal nombrado.			|
 		* -------------------------------------------------------
 		*/
 		
@@ -419,14 +419,14 @@ public class Main {
 		 * ------------------------------------------------------
 		* |CREG:validaringresoseleleccionficha (String[][], int)|
 		* -------------------------------------------------------
-		* |> Los atributos estan mal nombrados. 				|
-		* |														|
-		* |> El metodo esta mal nombrado.						|
-		* |														|
-		* |> Las validaciones dentro de los IF que son			|
+		* |> Los atributos estan mal nombrados. 		|
+		* |							|
+		* |> El metodo esta mal nombrado.			|
+		* |							|
+		* |> Las validaciones dentro de los IF que son		|
 		* |  extensos deberian ser parte de un metodo booleano	|
-		* |														|
-		* |> Falta comentar el codigo							|
+		* |							|
+		* |> Falta comentar el codigo				|
 		* -------------------------------------------------------
 		*/
 		
@@ -467,11 +467,11 @@ public class Main {
 	public static boolean tablerolleno(String [][] Matriz) {
 		/*
 		 * ------------------------------------------------------
-		* |CREG:	tablerolleno (String[][])					|
+		* |CREG:	tablerolleno (String[][])		|
 		* -------------------------------------------------------
-		* |> Los atributos estan mal nombrados. 				|
-		* |														|
-		* |> Falta comentar el codigo							|
+		* |> Los atributos estan mal nombrados. 		|
+		* |							|
+		* |> Falta comentar el codigo				|
 		* -------------------------------------------------------
 		*/
 		
@@ -490,13 +490,13 @@ public class Main {
 		
 		/*
 		 * ------------------------------------------------------
-		* |CREG:	imprimirmatriz (String[][])					|
+		* |CREG:	imprimirmatriz (String[][])		|
 		* -------------------------------------------------------
-		* |> Los atributos estan mal nombrados. 				|
-		* |														|
-		* |> El metodo esta mal escrito							|
-		* |														|
-		* |> Falta comentar el codigo							|
+		* |> Los atributos estan mal nombrados. 		|
+		* |							|
+		* |> El metodo esta mal escrito				|
+		* |							|
+		* |> Falta comentar el codigo				|
 		* -------------------------------------------------------
 		*/
 		
@@ -528,13 +528,13 @@ public class Main {
 	public static boolean VolverAJugar() {
 		/*
 		 * ------------------------------------------------------
-		* |CREG:	VolverAJugar ()								|
+		* |CREG:	VolverAJugar ()				|
 		* -------------------------------------------------------
-		* |> Los atributos estan mal nombrados. 				|
-		* |														|
-		* |> El metodo esta mal escrito							|
-		* |														|
-		* |> Falta comentar el codigo							|
+		* |> Los atributos estan mal nombrados. 		|
+		* |							|
+		* |> El metodo esta mal escrito				|
+		* |							|
+		* |> Falta comentar el codigo				|
 		* -------------------------------------------------------
 		*/
 		input = new Scanner(System.in);
@@ -566,13 +566,13 @@ public class Main {
 		
 		/*
 		 * ------------------------------------------------------
-		* |CREG:	elecciondificultad ()						|
+		* |CREG:	elecciondificultad ()			|
 		* -------------------------------------------------------
-		* |> Los atributos estan mal nombrados. 				|
-		* |														|
-		* |> El metodo esta mal escrito							|
-		* |														|
-		* |> Falta comentar el codigo							|
+		* |> Los atributos estan mal nombrados. 		|
+		* |							|
+		* |> El metodo esta mal escrito				|
+		* |							|
+		* |> Falta comentar el codigo				|
 		* -------------------------------------------------------
 		*/
 		
@@ -614,13 +614,13 @@ public class Main {
 	public static String[][] generartablerovacio(String [][] Matriz,int Eleccion) {
 		/*
 		 * ------------------------------------------------------
-		* |CREG:	generartablerovacio (String,int)			|
+		* |CREG:	generartablerovacio (String,int)	|
 		* -------------------------------------------------------
-		* |> Los atributos estan mal nombrados. 				|
-		* |														|
-		* |> El metodo esta mal escrito							|
-		* |														|
-		* |> Falta comentar el codigo							|
+		* |> Los atributos estan mal nombrados. 		|
+		* |							|
+		* |> El metodo esta mal escrito				|
+		* |							|
+		* |> Falta comentar el codigo				|
 		* -------------------------------------------------------
 		*/
 			final int JUEGO_FACIL = 1;
