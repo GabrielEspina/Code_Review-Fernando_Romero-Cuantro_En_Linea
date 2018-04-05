@@ -10,7 +10,7 @@
 
 /*
  * ----------------------------------------------------------
- * |Code Review | Clase 3 - Tarea Adicional		    |
+ * |Code Review | Clase 3 - Tarea Adicional 		    |
  * ----------------------------------------------------------
  * |Autor:  	Espina Gabriel				    |
  * |Matricula:	56003160 // Testing y Prueba de Software    |
